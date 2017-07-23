@@ -2,6 +2,7 @@ from flask import Flask, request, redirect, url_for
 import sqlite3 as sql
 application = Flask(__name__)
 
+#comment by kgw
 
 @application.route('/')
 def hello_world():
