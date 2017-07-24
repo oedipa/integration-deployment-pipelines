@@ -1,0 +1,17 @@
+machine:
+    python:
+        version: 2.7.10
+
+dependencies:
+    override:
+        - pip install -U pip
+        - pip install --upgrade setuptools
+        - pip install -r requirements.txt
+
+
+deployment:
+
+  production:
+    branch: master
+    commands:
+      - fab deploy
