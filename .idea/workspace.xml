@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ee2222a-d348-4067-959b-ca453ec227a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen-caps-functionality/ansible-installing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen-caps-functionality/security-groups.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen-caps-functionality/terraform-apply-creation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen-caps-functionality/terraform-aws-success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen-caps-functionality/terraformed-test-instance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible/ansible-docker-machine/files/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible/ansible-gitclone/tasks/main.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible/ansible-pip/tasks/main.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible/ansible-setuptools/tasks/main.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible/ansible-virtualenv/main.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible/hosts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible/playbook.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/terraform/sg.tf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/terraform/sg_rules.tf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/terraform/variables.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="$PROJECT_DIR$/fabfile.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,6 +53,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="fabfile.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fabfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible/ansible-gitclone/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hosts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible/hosts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -148,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/paramiko.log" />
         <option value="$PROJECT_DIR$/circleci.yml" />
         <option value="$PROJECT_DIR$/app.py" />
@@ -178,6 +169,7 @@
         <option value="$PROJECT_DIR$/ansible/ansible-docker-machine/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible/playbook.yml" />
         <option value="$PROJECT_DIR$/ansible/hosts" />
+        <option value="$PROJECT_DIR$/fabfile.py" />
       </list>
     </option>
   </component>
@@ -547,13 +539,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1519" y="-21" width="1891" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5284974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5284974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15846403" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -904,14 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fabfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1028,6 +1013,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
