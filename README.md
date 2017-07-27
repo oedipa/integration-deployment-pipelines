@@ -23,6 +23,6 @@ and fabric and requirements can be used for subsequent pushes.
 7) If I'd done this with ECS, I could provision a cluster and scale it..in this case, I added logic in my Terraform to add more instances.
 8) Not tested with feature branch merging
 9) Port 443 is open...did not have time to set up a Let's Encrypt cert, etc
-10) 54.157.237.161:5000
+10) 54.157.237.161:5000 and http://54.208.14.246:5000/ are the two servers I tested against (just the the loop was working between the CI and AWS)
 
 
