@@ -13,14 +13,16 @@ returning to it for completion this week.
 Needed:
 
 1) Terraform...install terraform and run 'terraform apply' AFTER first adjusting the variables (plug in a VPC id, AWS creds, etc).  You will see an EC2 come to life.
-2) Add the new IP to fabfile.py (if that's your deployment route) or to Ansible's hosts file.  Or both.  The Ansible can be used to do the original provisioning
+2) Ansible (if you want to play with the Ansible scripts)
+3) Add the new IP to fabfile.py (if that's your deployment route) or to Ansible's hosts file.  Or both.  The Ansible can be used to do the original provisioning
 and fabric and requirements can be used for subsequent pushes.
-3) Run the Ansible playbook with something like:
+4) Run the Ansible playbook with something like:
         ansible-playbook playbook.yml -u ubuntu --private-key "~/.ssh/flask-deploy.pem"
-4) I can provide the key separately if you like.
-5) I tested the pipeline when I just originally did it with fabfile.py and circleci and code changes deployed fine.
-6) If I'd done this with ECS, I could provision a cluster and scale it..in this case, I added logic in my Terraform to add more instances.
-7) Not tested with feature branch merging
-8) Port 443 is open...did not have time to set up a Let's Encrypt cert, etc
-9) 54.157.237.161:5000
+5) I can provide the key separately if you like.
+6) I tested the pipeline when I just originally did it with fabfile.py and circleci and code changes deployed fine.
+7) If I'd done this with ECS, I could provision a cluster and scale it..in this case, I added logic in my Terraform to add more instances.
+8) Not tested with feature branch merging
+9) Port 443 is open...did not have time to set up a Let's Encrypt cert, etc
+10) 54.157.237.161:5000
+
 
