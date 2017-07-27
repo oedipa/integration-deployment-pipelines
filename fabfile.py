@@ -9,7 +9,7 @@ env.user = 'ubuntu'
 env.directory = '/home/ubuntu/flaskapp'
 env.use_ssh_config = True
 env.activate = 'source /home/ubuntu/flaskapp/env/bin/activate'
-env.hosts = ['54.208.14.246']
+env.hosts = ['54.157.237.161']
 
 
 @ _contextmanager
