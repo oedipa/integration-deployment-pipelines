@@ -22,4 +22,5 @@ and fabric and requirements can be used for subsequent pushes.
 6) If I'd done this with ECS, I could provision a cluster and scale it..in this case, I added logic in my Terraform to add more instances.
 7) Not tested with feature branch merging
 8) Port 443 is open...did not have time to set up a Let's Encrypt cert, etc
+9) Dockerfile needs to be started and fabfile should install supervisor to keep it running
 
