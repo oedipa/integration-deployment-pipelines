@@ -1,0 +1,4 @@
+---
+- name: Install setuptools
+  shell: sudo apt install python-setuptools
+  shell: sudo apt-get update

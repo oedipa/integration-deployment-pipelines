@@ -1,0 +1,30 @@
+#Inital setup of server and application config
+#after this fabric and CircleCI can work together to seemlessly deploy after a git push
+#this playbook can be modified later to replace the fabric file if needed, just couldn't
+#figure out initially how to make ansible and CircleCI work
+#together to do a git push deploy with no added intervention
+---
+- hosts: "flaskapp"
+  sudo: yes
+  roles:
+    - ansible-pip
+    - ansible-setuptools
+    #- ansible-supervisor
+    - ansible-gitclone
+    - ansible-virtualenv
+    - ansible-docker-machine
+
+  #### tasks:
+ #   - name: Ensure Docker image is built from the test Dockerfile.
+  #    sudo: yes
+  #    docker_image:
+  #      name: flaskapp
+  #      path: /home/ubuntu/flaskapp/Dockerfile
+  #      state: build
+
+  #  - name: Ensure the test container is running.
+  #    sudo: yes
+  #    docker_container:
+  #      image: flaskapp:latest
+  #      name: flaskapp
+  #      state: started

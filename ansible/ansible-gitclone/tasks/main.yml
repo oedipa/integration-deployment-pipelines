@@ -1,0 +1,4 @@
+---
+- name: Git clone
+  sudo: yes
+  shell: "git clone git@github.com:oedipa/integration-deployment-pipelines.git"

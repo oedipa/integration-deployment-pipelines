@@ -1,0 +1,9 @@
+---
+#sudo apt install python-pip
+#run first before virtualenv in playbook
+- name: ensure required packages for python2.7
+  apt:
+    name: "{{ item }}"
+  with_items:
+    - python-pip
+    - python-setuptools

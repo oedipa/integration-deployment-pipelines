@@ -1,0 +1,4 @@
+# tasks file for docker-machine
+---
+- name: From apt
+  shell: "sudo apt-get install docker.io"
